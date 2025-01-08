@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Restaurant | Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <section aria-label="navbar">
+        <nav class="navbar">
+          <div>
+            <img src="./assets/white-logo.png" alt="logo" class="logo" />
+          </div>
+          <div>
+            <ul class="list">
+              <li class="list-item">Our Menu</li>
+              <li class="list-item">Maps</li>
+              <li class="list-item">About</li>
+              <li class="list-item">Contact</li>
+            </ul>
+          </div>
+          <div>
+            <a href="#menu">
+            <button class="button-small">Order</button>
+          </a>
+          </div>
+        </nav>
+      </section>
+      <section aria-label="hero">
+        <div class="hero">
+          <h1 class="hero-heading">
+            A Restaurant That Only Serves Delicious Food
+          </h1>
+          <a href="#menu">
+            <button class="button-large">Read Our Menu</button>
+          </a>
+        </div>
+      </section>
+      <section aria-label="menu" id="menu" class="menu-section">
+        <div class="menu-heading">
+          <h2>Our Menu</h2>
+          <p>Explore our variety of delicious dishes.</p>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="./assets/biryani.png" alt="Biryani" class="menu-image" />
+            <h3 class="item-title">Biryani</h3>
+            <p class="item-description">
+              Hyderabadi Dum Biryani
+            </p>
+            <span class="item-price">299 INR</span>
+          </div>
+          <div class="menu-item">
+            <img src="./assets/pizza.png" alt="Pizza" class="menu-image" />
+            <h3 class="item-title">Pizza</h3>
+            <p class="item-description">
+              Veg and Non-veg Pizzas.
+            </p>
+            <span class="item-price">199 INR</span>
+          </div>
+          <div class="menu-item">
+            <img src="./assets/meals.png" alt="Meals" class="menu-image" />
+            <h3 class="item-title">Meals</h3>
+            <p class="item-description">
+              South Indian Thali (Meals).
+            </p>
+            <span class="item-price">199 INR</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
